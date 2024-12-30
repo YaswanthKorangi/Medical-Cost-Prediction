@@ -16,7 +16,8 @@ children	number of children covered by health insurance
 smoker	smoking
 region	the beneficiary's residential area in the US
 charges	individual medical costs billed by health insurance
-**Conclusion**
+
+# Conclusion
 
 From the models applied in the notebook, we can see that Linear Regressor and Random Forest Regressor are giving the best results. But, Random Forest Regressor is giving the best results with the least RMSE value. Therefore, I will use Random Forest Regressor to predict the medical expense of patients.
 
